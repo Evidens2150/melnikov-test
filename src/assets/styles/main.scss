@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  * {
+    box-sizing: border-box;
+  }
+}
+.container {
+  background-color: #edf1f6;
+  max-width: 1440px;
+  padding: 20px 40px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 20px 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 20px 10px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .container {
+    padding: 20px 0px;
+  }
+}
